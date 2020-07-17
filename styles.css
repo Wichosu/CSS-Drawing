@@ -24,20 +24,20 @@ body{
   left: 50%;
   transform: translateX(-50%);
   width: 500px;
-  height: 185px;
+  height: 200px;
   background-color: #d38900;
   border-radius: 0 0 1% 1%;
 }
 
-.burger__bread::before{
+.burger__bread::after{
   content: '';
   position: absolute;
   top: 100%;
-  left: 0%;
+  left: 85%;
   width: 90px;
   height: 4px;
-  background-color: #ac7000b2;
-  box-shadow: -1px 5px 7px 3px #ac7000d2;
+  background-color: #c78100d2;
+  box-shadow: -1px 5px 7px 3px #c78100d2;
 }
 
 .burger__bread--bot{
@@ -122,27 +122,7 @@ body{
   border-radius: 30%;
 }
 
-.burger__ketchup{
-  position: absolute;
-  top: 47%;
-  left: 50%;
-  width: 380px;
-  height: 5px;
-  background-color: rgb(218, 40, 40);
-  transform: translateX(-50%);
-  border-radius: 40%;
-}
 
-.burger__mostard{
-  position: absolute;
-  top: 46%;
-  left: 50%;
-  width: 380px;
-  height: 5px;
-  background-color: rgb(238, 234, 0);
-  transform: translateX(-50%);
-  border-radius: 40%;
-}
 
 .burger__seeds{
   position: absolute;
