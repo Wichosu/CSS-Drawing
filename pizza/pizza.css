@@ -1,0 +1,119 @@
+.pizza{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #cf8e00;
+}
+
+.pizza__cheese{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: #ffee00b3;
+}
+
+.pizza__spicySalami{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ca2800;
+}
+
+.pizza__spicySalami:nth-child(1){
+  top: 20%;
+  left: 20%;
+}
+
+.pizza__spicySalami:nth-child(2){
+  top: 10%;
+  left: 40%;
+}
+
+.pizza__spicySalami:nth-child(3){
+  top: 25%;
+  left: 65%;
+}
+
+.pizza__spicySalami:nth-child(4){
+  top: 80%;
+  left: 65%;
+}
+
+.pizza__spicySalami:nth-child(5){
+  top: 70%;
+  left: 25%;
+}
+
+.pizza__spicySalami:nth-child(6){
+  top: 50%;
+  left: 10%;
+}
+
+.pizza__spicySalami:nth-child(7){
+  top: 50%;
+  left: 80%;
+}
+
+.pizza__spicySalami:nth-child(8){
+  top: 50%;
+  left: 50%;
+}
+
+.pizza__spicySalami:nth-child(9){
+  top: 40%;
+  left: 30%;
+}
+
+.pizza__spicySalami:nth-child(10){
+  top: 70%;
+  left: 45%;
+}
+
+.pizza__spicySalami:nth-child(11){
+  top: 30%;
+  left: 50%;
+}
+
+.pizza__spicySalami:nth-child(12){
+  top: 65%;
+  left: 70%;
+}
+
+.pizza__slide{
+  position: absolute;
+  width: 500px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pizza__slide:nth-child(2){
+  top: 50%;
+  left: 0;
+}
+
+.pizza__slide:nth-child(3){
+  top: 50%;
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.pizza__slide:nth-child(4){
+  top: 50%;
+  left: 0;
+  transform: rotate(90deg);
+}
+
+.pizza__slide:nth-child(5){
+  top: 50%;
+  left: 0;
+  transform: rotate(135deg);
+}
