@@ -7,7 +7,7 @@
   border-radius: 50%;
   background-color: #cf8e00;
   animation: roll 10s ease-in-out 0s infinite alternate;
-  box-shadow: 0px 0px 20px 2px;
+  box-shadow: 0px 0px 10px 1px;
 }
 
 .pizza::before{
@@ -19,7 +19,7 @@
   width: 450px;
   height: 450px;
   border-radius: 50%;
-  background-color: rgba(255, 238, 0, 0.78);
+  background-color: rgba(255, 238, 0, 0.7);
 }
 
 .pizza__spicySalami{

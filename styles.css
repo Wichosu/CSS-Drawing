@@ -1,9 +1,14 @@
 @import './burger/burger.css';
 @import './pizza/pizza.css';
+@import './sushi/sushi.css';
 
 body{
   margin: 0;
   background-color: #fafafa;
+}
+
+*{
+  box-sizing: border-box;
 }
 
 .space{
